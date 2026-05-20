@@ -8,15 +8,15 @@ num2 = st.number_input("Enter second no. : ")
 col1, col2, col3, = st.columns(3)
 
 with col1:
-    add = st.button("Add")
-    div = st.button("Divide")
+    add = st.button("    Add   ")
+    div = st.button("  Divide  ")
 
 with col2:
-    sub = st.button("Subtract")
-    pow = st.button("Power")
+    sub = st.button("  Subtract ")
+    pow = st.button("   Power  ")
 
 with col3:
-    mul = st.button("Multiply")
+    mul = st.button(" Multiply ")
     per = st.button("Percentage")
 
 if add:
